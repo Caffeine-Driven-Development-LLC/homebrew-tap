@@ -8,6 +8,8 @@ cask "app-track" do
   desc "Desktop app to help job seekers organize and track their job searches"
   homepage "https://getapptrack.com/"
 
+  auto_updates true
+
   app "App Track.app"
 
   zap trash: [

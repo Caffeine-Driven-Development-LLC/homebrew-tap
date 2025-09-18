@@ -5,10 +5,12 @@ class FinanceTracker < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Caffeine-Driven-Development-LLC/finance_tracker/releases/download/v0.1.0/finance_tracker-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/Caffeine-Driven-Development-LLC/finance_tracker/releases/download/v0.0.1/finance_tracker-v0.0.1-darwin-arm64.tar.gz"
       sha256 "sha256:efc9887509006095db626a2c6907e48859072dcefdcdc02961d69b6f21c44815"
     end
   end
+
+  depends_on "tectonic"
 
   def install
     bin.install "finance_tracker"

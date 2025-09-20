@@ -1,12 +1,12 @@
 class FinanceTracker < Formula
   desc "Personal finance tracking CLI"
   homepage "https://github.com/Caffeine-Driven-Development-LLC/finance_tracker"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/Caffeine-Driven-Development-LLC/finance_tracker/releases/download/v0.0.1/finance_tracker-v0.0.1-darwin-arm64.tar.gz"
-      sha256 "efc9887509006095db626a2c6907e48859072dcefdcdc02961d69b6f21c44815"
+      url "https://github.com/Caffeine-Driven-Development-LLC/finance_tracker/releases/download/v0.0.2/finance_tracker-v0.0.2-darwin-arm64.tar.gz"
+      sha256 "8101bcc412a9cc5c76128fcdf3ea35e2c02af40c999e3a2c4b0af374dca1f71c"
     end
   end
 

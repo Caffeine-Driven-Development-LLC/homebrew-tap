@@ -1,7 +1,7 @@
 class FinanceTracker < Formula
   desc "Personal finance tracking CLI"
   homepage "https://github.com/Caffeine-Driven-Development-LLC/finance_tracker"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
@@ -11,6 +11,7 @@ class FinanceTracker < Formula
   end
 
   depends_on "tectonic"
+  depends_on cask: "font-roboto"
 
   def install
     bin.install "finance_tracker"

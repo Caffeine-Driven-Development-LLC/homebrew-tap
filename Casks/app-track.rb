@@ -7,6 +7,7 @@ cask "app-track" do
   name "App Track"
   desc "Desktop app to help job seekers organize and track their job searches"
   homepage "https://getapptrack.com/"
+  license "GPL-3.0-or-later"
 
   auto_updates true
 
